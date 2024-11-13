@@ -22,7 +22,7 @@ class ActorsController < ApplicationController
     the_actor.save
 
     # Redirect to the movie details page
-    redirect_to("/ators/#{the_actor.id}")
+    redirect_to("/actors/#{the_actor.id}")
   end
 
   def create
